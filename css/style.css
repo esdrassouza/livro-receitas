@@ -1,0 +1,38 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body {
+    width:97%;
+    padding:5px;
+}
+ body .logo{
+    background-color:#FF7F50;
+    color:#fff;
+}
+ body .container{
+    width:100%;
+    border:solid 1px #000;
+    margin:0 auto;
+}
+
+body .container img{
+    width:100%;
+    border-radius: 8px;
+}
+
+body .modo-preparo , .engredientes{
+    margin-left:10px;
+}
+
+body .engredientes h3 , .modo-preparo h3{
+    border:solid 1px #000;
+    background-color: #FF7F50;
+    color:#fff;
+}
+
+body .rodape{
+    background-color: #FF7F50;
+    height:150px;
+    width:100%;
+}
