@@ -12,25 +12,98 @@ body {
 }
  body .container{
     width:100%;
-    border:solid 1px #000;
     margin:0 auto;
+    padding-top:10px;
 }
-
-body .container img{
-    width:100%;
+body .container .slider{
+    border:solid 1px #ccc;
+}
+body .container .slider img{
+    width:80%;
+    padding-left:100px;
+    height: 400px;
     border-radius: 8px;
+    
 }
 
+
+/*style receita de strogonoff de frango*/
+
+body .container .strogonoff-frango figure figcaption h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color:#FF7F50;
+}
 body .modo-preparo , .engredientes{
     margin-left:10px;
+    margin-bottom: 10px;
+    background-color:#CDC9C9;
+    color:#fff;
+    padding:10px;
+    border-radius:8px;
+    font-size:12pt;
 }
 
 body .engredientes h3 , .modo-preparo h3{
-    border:solid 1px #000;
+    
+    margin-bottom: 10px;
+    padding-left:5px;
+    border-radius:8px;
     background-color: #FF7F50;
     color:#fff;
 }
 
+body .modo-preparo p{
+    margin-bottom:10px;
+    text-align: justify;
+}
+
+
+/* style categoria de receitas*/
+body .container .categorias{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+body .container .categorias figure{
+    
+    border:1px solid #ccc;
+    width:20%;
+    margin-left:50px;
+    margin-bottom: 5px;
+    padding:5px;
+}
+body .container .categorias figure:hover{
+    box-shadow: 5px 5px 5px #ccc;
+}
+body .container .categorias figure img{
+    width:99%;
+    height:200px;
+}
+
+
+body .container .categorias figure figcaption{
+    background-color:#FF7F50;
+    padding-left:10px;
+    border-radius:8px;
+}
+
+body .container .categorias figure figcaption a{
+    color:#fff;
+}
+
+
+body .container .strogonoff-frango{
+    padding-top:10px;
+    width:70%;
+    height:auto;
+    margin:0 auto;
+}
+body .container .strogonoff-frango img{
+    height: 500px;
+}
+/* style rodape*/
 body .rodape{
     background-color: #FF7F50;
     height:150px;
